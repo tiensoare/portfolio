@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2025-01-12 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+One first-author paper accepted to <a href="https://2025.msrconf.org">MSR 2025</a>
