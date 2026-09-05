@@ -6,7 +6,7 @@ subtitle: Ph.D. Student in Computer Science @ <a href='https://www.vt.edu'>Virgi
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_tien.jpeg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
