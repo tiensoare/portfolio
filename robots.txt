@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tiensoare.github.io/sitemap.xml
+Sitemap: https://tiensoare.github.io/portfolio/sitemap.xml
