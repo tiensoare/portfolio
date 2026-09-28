@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a fourth-year Ph.D. student in Computer Science at Virginia Tech in Blacksburg, Virginia, advised by Dr. Muhammad Ali Gulzar. I earned my M.S. in 2026 and expect to complete my Ph.D. in May 2028. Originally from Vietnam, I began my path in computing at Century College and the University of Saint Thomas before coming to Virginia Tech.
+I am a fourth-year Ph.D. student in Computer Science at Virginia Tech in Blacksburg, Virginia, advised by Dr. Muhammad Ali Gulzar. I earned my M.S. in 2026 and expect to complete my Ph.D. in May 2028. I expect to complete my Ph.D. in May 2028. After graduation, I aim to pursue a research career in academia or an industry research lab, building AI tools that developers and scientists can trust. Wherever I land, I hope to keep teaching and mentoring students from non-traditional paths into computing.
 
 My research asks where large language models (LLMs) fail when we trust them to build, test, and reason about software, and how to make them reliable. Specifically, my research circles around three pillars:
 

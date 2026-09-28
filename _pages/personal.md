@@ -7,11 +7,11 @@ nav: true
 nav_order: 4
 ---
 
-When I'm not chasing down floating-point errors, you'll usually find me with a pencil in hand. Drawing and numerical research have more in common than you might think: both reward patience with tiny details. One shade off in a portrait, or one bit off in a number, and the whole picture changes.
+Outside of research, I am a pencil artist, a proud former cat parent, and a firm believer that there is no single "right" path into computing. Here's a little more about the journey that brought me here and the things that keep me inspired along the way.
 
 ### My Journey :seedling:
 
-I was born and raised in **Vietnam**, a beautiful S-shaped country in Southeast Asia. Growing up in a culture where academic performance is every student's top priority, coming to the U.S. for college was a complete culture shock. The two education systems felt worlds apart, e.g., Vietnam emphasized exams and memorization, while U.S. classrooms encouraged me to ask questions, debate, and explore on my own. Learning to thrive in both taught me to value discipline and curiosity in equal measure.
+I was born and raised in **Vietnam**, a beautiful S-shaped country in Southeast Asia. Growing up in a culture where academic performance is every student's top priority, coming to the U.S. for college was a complete culture shock. The two education systems felt worlds apart: Vietnam emphasized exams and memorization, while U.S. classrooms encouraged me to ask questions, debate, and explore on my own. Learning to thrive in both taught me to value discipline and curiosity in equal measure.
 
 My path to a Ph.D. began at a community college, **Century College**. Community colleges are often overlooked, but I believe they are a wonderful opportunity for students who are still discovering their paths, who need practical degrees for their careers, who want to save money, or who thrive in a small, close-knit environment. That was where my confidence took root.
 

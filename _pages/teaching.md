@@ -8,17 +8,17 @@ nav_order: 2
 calendar: false
 ---
 
-The first time I saw code, in a high school Pascal class, I was completely lost. Years later, an introductory Python course changed everything, not because the material got easier, but because it was explained in a way that finally clicked. That experience shapes how I teach today. My mom was the first to see a teacher in me, long before I saw it myself, and every semester as a teaching assistant has proven her right. My favorite moment in teaching is when a student who arrived convinced they "just aren't a programmer" traces through their own code, spots the bug, and realizes they can do this.
+The first time I saw code, in a high school `Pascal` class, I was completely lost. Years later, an introductory `Python` course changed everything, not because the material got easier, but because it was explained in a way that finally clicked. That experience shapes how I teach today. My mom was the first to see a teacher in me, long before I saw it myself, and every semester as a teaching assistant has proven her right. My favorite moment in teaching is when a student who arrived convinced they "just aren't a programmer" traces through their own code, spots the bug, and realizes they can do this.
 
 ### Teaching Philosophy
 
 My teaching rests on three principles.
 
-1. **Clarity through structure.** Many students struggle with programming not because the ideas are too hard, but because they are presented too quickly. I break complex concepts into small, manageable steps. When teaching loops or recursion, I start with the simplest case and build up gradually, using diagrams, step-by-step code tracing, and everyday metaphors to make invisible program behavior visible. Students consistently tell me my explanations are easy to follow, and I take that as my highest compliment.
+1. **`Clarity through structure`.** Many students struggle with programming not because the ideas are too hard, but because they are presented too quickly. I break complex concepts into small, manageable steps. When teaching loops or recursion, I start with the simplest case and build up gradually, using diagrams, step-by-step code tracing, and everyday metaphors to make invisible program behavior visible. Students consistently tell me my explanations are easy to follow, and I take that as my highest compliment.
 
-2. **Thinking over answers.** I rarely hand students a solution. When someone brings me a bug during office hours, I ask them to walk me through their code line by line and predict what each step should do. More often than not, they find the error themselves. This builds the debugging skills and confidence that last long after my course ends.
+2. **`Thinking over answers`.** I rarely hand students a solution. When someone brings me a bug during office hours, I ask them to walk me through their code line by line and predict what each step should do. More often than not, they find the error themselves. This builds the debugging skills and confidence that last long after my course ends.
 
-3. **Every student belongs.** Programming can be intimidating, especially for students with no prior experience or who come from backgrounds underrepresented in computing. As a former international and community college student, I know that feeling well. I work to make confusion normal and questions welcome, and I listen closely to how each student thinks so I can meet them where they are.
+3. **`Every student belongs`.** Programming can be intimidating, especially for students with no prior experience or who come from backgrounds underrepresented in computing. As a former international and community college student, I know that feeling well. I work to make confusion normal and questions welcome, and I listen closely to how each student thinks so I can meet them where they are.
 
 
 #### What Students Say

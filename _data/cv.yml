@@ -1,10 +1,10 @@
 cv:
   name: Tien Soare
-  label: Ph.D. Student
+  label: Ph.D. Student in Computer Science
   email: tiennguyen@vt.edu
   location: Blacksburg, Virginia, US
   photo: ../assets/img/prof_pic_tien.jpeg
-  summary: A fourth-year PhD student in Computer Science
+  summary: Ph.D. student in Computer Science at Virginia Tech studying how large language models reason about software and numbers, and how to make AI a trustworthy partner for building reliable software. I publish as Tien Nguyen.
 
   social_networks:
     - network: X
@@ -33,23 +33,38 @@ cv:
         score: "4.0"
         # courses: "Theory of Relativity"
         highlights:
-          - Awarded M.S. degree
+          - Anticipated graduation May 2028
+          - Advisor - Dr. Muhammad Ali Gulzar
+          - Completing the Future Professoriate Graduate Certificate
+
+      - institution: Virginia Tech
+        location: Blacksburg, VA, USA
+        url: https://www.vt.edu/
+        area: Computer Science
+        studyType: Master of Science
+        start_date: 2023-08
+        end_date: 2026-05
 
       - institution: University of Saint Thomas
         location: Saint Paul, USA
+        url: https://www.stthomas.edu/
         area: Computer Science
         studyType: Bachelor of Science
-        start_date: 2020
-        end_date: 2022
+        start_date: 2020-08
+        end_date: 2022-05
+        score: "3.99"
         highlights:
           - Summa Cum Laude
+          - Transfer scholarship recipient
 
       - institution: Century College
         location: White Bear Lake, USA
+        url: https://www.century.edu/
         area: Computer Science
         studyType: Associate of Science
-        start_date: 2018
-        end_date: 2020
+        start_date: 2018-01
+        end_date: 2020-05
+        score: "4.0"
         highlights:
           - High Distinction
           - Phi Theta Kappa (member, Director of Honors in Action program)
@@ -61,24 +76,46 @@ cv:
         start_date: 2023
         end_date: 
         # summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        # highlights:
-        #   - Relativity
-        #   - Description 2.
+        highlights:
+          - Built and ran large-scale LLM evaluation pipelines on Virginia Tech's ARC cluster, orchestrating vLLM inference across A100 GPUs under Slurm for 469K prompts and 3B tokens
+          - Developed static and dynamic analysis tooling for Python programs, including AST-based semantic-equivalence checking and symbolic verification with SymPy
+          - Collaborated with two faculty advisors and a research group across four concurrent projects
+ 
+      - company: Department of Computer Science, Virginia Tech
+        position: Graduate Teaching Assistant
+        location: Blacksburg, VA, USA
+        start_date: 2023
+        end_date: 2026
+        highlights:
+          - CS 1064 - Introduction to Programming in Python (Fall 2024, Spring 2025, Summer 2026)
+          - CS 1114 - Introduction to Software Engineering in Java (Fall 2023, Fall 2025)
+          - Led lab sections and office hours, guiding students through problem solving, code tracing, and debugging
 
       - company: University of Saint Thomas
-        position: Information Securiry Coordinator
+        position: Information Security Student Coordinator
         location: Saint Paul, MN, USA
-        start_date: 2022
-        end_date: 2022
-        # highlights:
-        #   - Description 1.
-        #   - Description 2.
+        start_date: 2023-02
+        end_date: 2023-05
+        highlights:
+          - Monitored and secured university systems and networks within the Security Operations Center (SOC)
+          - Conducted routine security audits addressing about 20 system incidents per day
+          - Managed Azure Active Directory users in accordance with FERPA guidelines
 
       - company: Target Corp.
         position: Software Engineering Intern
         location: Minneapolis, MN, USA
         start_date: 2021-06
         end_date: 2021-08
+        highlights:
+          - Built a full-stack web application consolidating prepaid product masking codes into a single searchable tool for 100+ authorized users
+          - Developed React front-end components and Java/Spring Boot REST API endpoints backed by Oracle Database
+          - Delivered features iteratively in an Agile team with weekly sprint planning
+    Volunteer:
+      - company: Access Center, Century College
+        position: Notetaker, Scribe, and Typist (Volunteer)
+        location: White Bear Lake, MN, USA
+        start_date: 2018-09
+        end_date: 2020-05
 
     # Volunteer:
     #   - company: Access Center, Century College
@@ -99,7 +136,11 @@ cv:
         awarder: Dept. of Computer Science, Virginia Tech
         # url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
         summary: Full scholarship awards for 10 CS students to attend the GHC 2026 hosted in Anaheim, CA
-
+      
+      - title: Finalist, Fowler Global Social Innovation Challenge
+        date: 2021
+        awarder: University of Saint Thomas
+        summary: One of 6 finalists for AbroadstudiZ, a platform helping international students plan and share study-abroad experiences
       # - title: Max Planck Medal
       #   authors:
       #     - "German Physical Society"
@@ -113,26 +154,41 @@ cv:
           - Tien Nguyen
           - Kirshanthan Sundararajah
           - Muhammad Ali Gulzar
-        publisher: arXiv
-        releaseDate: 2026-08-17
+        publisher: arXiv (in submission to ICSE 2027)
+        releaseDate: 2026-04-08
         url: https://arxiv.org/abs/2604.04854
-        summary: Empirical stufy of LLM numerical stabilization in scientific programs.
-
+        summary: First evaluation of LLM reasoning for high-precision numerical computation, showing that LLMs fix many expressions that classical tools cannot, making them a complementary tool for numerical robustness.
+ 
       - title: Are the Majority of Public Computational Notebooks Pathologically Non-Executable?
         authors:
           - Tien Nguyen
           - Waris Gill
           - Muhammad Ali Gulzar
-        publisher: IEEE
+        publisher: IEEE/ACM MSR 2025
         releaseDate: 2025-06-13
         url: https://ieeexplore.ieee.org/document/11025746
-        summary: Empirical study of non-executability of computational notebooks and proposal of LLM-based methodology for recovering full and partial executability.
+        summary: Large-scale study of 42,546 public Jupyter notebooks showing only 21.3% are truly non-executable (far below prior estimates of up to 76%), plus an LLM-based method for recovering full and partial executability.
 
     Skills:
-      - name: Computer Science
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Languages
+        icon: fa-solid fa-code
+        keywords: "Python, Java, SQL, JavaScript, HTML/CSS"
+ 
+      - name: ML and LLM Systems
+        icon: fa-solid fa-brain
+        keywords: "vLLM, PyTorch, HuggingFace Transformers, quantization (FP8/INT8), model evaluation and benchmarking, prompt design"
+ 
+      - name: Program Analysis
+        icon: fa-solid fa-magnifying-glass
+        keywords: "AST analysis, SymPy, numerical stability, floating-point verification, pytest, JUnit"
+ 
+      - name: HPC and Infrastructure
+        icon: fa-solid fa-server
+        keywords: "Slurm, ARC/TinkerCliffs (NVIDIA A100), Docker, Conda"
+ 
+      - name: Web Development
+        icon: fa-solid fa-globe
+        keywords: "React, Flask, FastAPI, REST APIs, Material UI"
 
     Languages:
       - name: Vietnamese
@@ -142,9 +198,17 @@ cv:
         summary: "Fluent"
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Research
+        icon: fa-solid fa-flask
+        keywords: "LLMs for software engineering, numerical reasoning in LLMs, software testing and reliability, program analysis"
+ 
+      - name: Community
+        icon: fa-solid fa-handshake
+        keywords: "Diversity in computing, mentoring women in tech, supporting community college and international students"
+ 
+      - name: Art
+        icon: fa-solid fa-pencil
+        keywords: "Pencil portrait drawing"
 
     # Certificates:
     #   - name: Machine Learning
@@ -162,16 +226,29 @@ cv:
     #     issuer: Stanford University
     #     icon: fa-solid fa-envelope
 
-    # Projects:
-    #   - name: Quantum Computing
-    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-    #     highlights:
-    #       - Quantum Teleportation
-    #       - Quantum Cryptography
-    #     start_date: 2018-01-01
-    #     end_date: 2018-01-01
+    Projects:
+      - name: Bookmark Management
+        summary: Full-stack bookmark management web app built as a team project at Virginia Tech.
+        highlights:
+          - Developed the interactive React front end and collaborated on Node.js and PostgreSQL back-end integration
+ 
+      - name: Book Library
+        summary: Personal React web app for searching and ranking books via the Google Books API.
+        highlights:
+          - Implemented pagination, sorting, and saved favorites with a responsive Bootstrap UI
+ 
+      - name: Classy Schedule
+        summary: Web application for University of Saint Thomas department chairs to schedule classes and teaching sections.
+        highlights:
+          - Built React and Material UI front-end components and worked with back-end teams to deploy on Azure
+ 
+      - name: AbroadstudiZ
+        summary: Web platform helping international students plan study abroad and share experiences.
+        highlights:
+          - Interviewed 23 international students and 6 international officers to refine the platform
+          - Selected as one of 6 finalists in the 2021 Fowler Global Social Innovation Challenge
 
     References:
       - name: Dr. Muhammad Ali Gulzar
-        icon: fa-solid fa-laptop
-        reference: "[Dr. Gulzar](https://people.cs.vt.edu/gulzar/) is an Assistant Professor of Computer Science at Virginia Tech. He has been my advisor and mentor throughout my Ph.D. journey. His guidance and support have been invaluable in shaping my research and academic growth."
+        icon: fa-solid fa-user
+        reference: "[Dr. Gulzar](https://people.cs.vt.edu/~gulzar/) is an Assistant Professor of Computer Science at Virginia Tech. He has been my advisor and mentor throughout my Ph.D. journey. His guidance and support have been invaluable in shaping my research and academic growth."
