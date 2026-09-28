@@ -42,12 +42,12 @@ Open **http://localhost:8080/portfolio/**. The first start downloads about 400 M
 
 ### Troubleshooting
 
-| Problem | Fix |
-| --- | --- |
-| The page is blank or shows "404" | Make sure the URL ends in `/portfolio/` |
-| "Address already in use" | A server is still running in another terminal. Stop it, or run `lsof -i :4000` to find it |
-| A change doesn't show up | Hard-refresh the browser (`Cmd + Shift + R`). If you edited `_config.yml`, restart the server |
-| The build acts strangely after big changes | Stop the server, run `bundle exec jekyll clean`, then start it again |
+| Problem                                    | Fix                                                                                           |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------- |
+| The page is blank or shows "404"           | Make sure the URL ends in `/portfolio/`                                                       |
+| "Address already in use"                   | A server is still running in another terminal. Stop it, or run `lsof -i :4000` to find it     |
+| A change doesn't show up                   | Hard-refresh the browser (`Cmd + Shift + R`). If you edited `_config.yml`, restart the server |
+| The build acts strangely after big changes | Stop the server, run `bundle exec jekyll clean`, then start it again                          |
 
 ---
 
@@ -62,8 +62,8 @@ Example (`_pages/projects.md`):
 layout: page
 title: projects
 permalink: /projects/
-nav: true        # true = shown in the top menu, false = hidden from the menu
-nav_order: 3     # position in the menu (1 = first, left-most)
+nav: true # true = shown in the top menu, false = hidden from the menu
+nav_order: 3 # position in the menu (1 = first, left-most)
 ---
 ```
 
@@ -84,7 +84,7 @@ Add `published: false` to the front matter:
 layout: page
 title: teaching
 permalink: /teaching/
-published: false   # page is not built at all; its link gives a 404
+published: false # page is not built at all; its link gives a 404
 ---
 ```
 
@@ -92,20 +92,20 @@ Delete that line (or set it to `true`) to bring the page back.
 
 ### Current pages
 
-| File | Menu title | In menu? | Order |
-| --- | --- | --- | --- |
-| `about.md` | about (home page) | always | — |
-| `publications.md` | publications | yes | 2 |
-| `projects.md` | projects | yes | 3 |
-| `repositories.md` | repositories | yes | 4 |
-| `cv.md` | CV | yes | 5 |
-| `teaching.md` | teaching | no | 6 |
-| `profiles.md` | people | no | 7 |
-| `dropdown.md` | submenus | yes | 8 |
-| `blog.md` | blog | no | 1 |
-| `books.md` | bookshelf | no | — |
-| `news.md` | news | no | — |
-| `plugins.md` | plugins | no | — |
+| File              | Menu title        | In menu? | Order |
+| ----------------- | ----------------- | -------- | ----- |
+| `about.md`        | about (home page) | always   | —     |
+| `publications.md` | publications      | yes      | 2     |
+| `projects.md`     | projects          | yes      | 3     |
+| `repositories.md` | repositories      | yes      | 4     |
+| `cv.md`           | CV                | yes      | 5     |
+| `teaching.md`     | teaching          | no       | 6     |
+| `profiles.md`     | people            | no       | 7     |
+| `dropdown.md`     | submenus          | yes      | 8     |
+| `blog.md`         | blog              | no       | 1     |
+| `books.md`        | bookshelf         | no       | —     |
+| `news.md`         | news              | no       | —     |
+| `plugins.md`      | plugins           | no       | —     |
 
 The `dropdown.md` "submenus" page is a demo menu that links to bookshelf and blog. Set `nav: false` on it if you don't want it.
 
@@ -148,14 +148,14 @@ Put images in `assets/img/`, then add them like this:
 
 What each front-matter field does:
 
-| Field | Meaning |
-| --- | --- |
-| `layout: page` | Use the standard page design. Keep this for normal pages |
-| `title` | Name shown in the menu and at the top of the page |
-| `permalink` | The page's address: `/research/` becomes `.../portfolio/research/`. Must be unique and should start and end with `/` |
-| `description` | Short line shown under the title (optional) |
-| `nav` | `true` to show it in the top menu |
-| `nav_order` | Where it sits in the menu |
+| Field          | Meaning                                                                                                              |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `layout: page` | Use the standard page design. Keep this for normal pages                                                             |
+| `title`        | Name shown in the menu and at the top of the page                                                                    |
+| `permalink`    | The page's address: `/research/` becomes `.../portfolio/research/`. Must be unique and should start and end with `/` |
+| `description`  | Short line shown under the title (optional)                                                                          |
+| `nav`          | `true` to show it in the top menu                                                                                    |
+| `nav_order`    | Where it sits in the menu                                                                                            |
 
 ### Step 2: Fix the menu order (if needed)
 
@@ -190,9 +190,9 @@ Wrap them in a Liquid comment block. Everything inside stays in the file but isn
 
 ```liquid
 {% comment %}
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+  {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
-{% include courses.liquid %}
+  {% include courses.liquid %}
 {% endcomment %}
 ```
 
