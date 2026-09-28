@@ -36,7 +36,7 @@
   eprint={2604.04854},
   archivePrefix={arXiv},
   primaryClass={cs.SE},
-  html={https://arxiv.org/abs/2604.04854},
+  pdf={https://arxiv.org/abs/2604.04854},
   url={https://arxiv.org/abs/2604.04854},
   code={https://anonymous.4open.science/r/LLMNumberICSE26/README.md},
   abstract={Scientific software relies on high-precision computation, yet finite floating-point representations introduce precision errors that propagate in safety-critical domains. Despite growing use of large language models (LLMs) in scientific applications, their reliability in handling floating-point numerical stability has not been systematically evaluated. This paper evaluates LLMs' reasoning through two tasks: (1) detecting instability in numerical expressions by generating error-inducing inputs (detection), and (2) rewriting expressions to improve numerical stability (stabilization). Building on popular numerical benchmarks, we assess 4 state-of-the-art LLMs on 2,037numerical structures, including nested conditionals, high-precision literals, and multi-variable arithmetic, across 469,000 tasks. Our results show that LLMs complement traditional approaches in detecting and stabilizing numerically unstable computations. Notably, LLMs outperform baseline methods precisely where the latter fail, stabilizing 61.2% of expressions the baseline fails to improve. More broadly, however, traditional baselines outperform LLMs: Herbie stabilizes 93.7% of the expressions compared to 67.2% by LLMs, and on expressions that both stabilize, Herbie achieves higher accuracy in 42.7% of cases. LLMs struggle with control flow and high-precision literals, consistently removing such structures rather than reasoning about their numerical implications, while performing substantially better on purely symbolic expressions. Even when LLMs preserve structure, their numerical reasoning falters, yielding semantically inequivalent expressions in over 46% of cases. These findings suggest LLMs are effective at stabilizing expressions that classical techniques cannot, yet struggle when high-precision magnitudes and control-flow semantics demand precise reasoning, since such concrete patterns are rarely seen during training.}
@@ -45,6 +45,20 @@
 ######################################################
 # 2025
 ######################################################
+
+@misc{RenoteTest,
+  abbr = {Ext. Work},
+
+  title = {Investigating and Remediating Pathological Non-Executability of Public Computational Notebooks}, 
+  author = {Nguyen, Tien and Gill, Waris and Gulzar, Muhammad Ali},
+  note = {This is an extension of our prior work MSR 2025},
+  pdf = {https://drive.google.com/file/d/1rFHZ2lZ5HXVO5vtWayFiJ8EzfbnsLEnR/view?usp=sharing},
+  year = {2025},
+  keywords={Testing;Pathology;Codes;Measurement uncertainty;Data science;Software;Data mining;Logic;Standards;Synthetic data;Computational notebooks;non-executability;restoration;mining software repositories},
+  code = {https://github.com/renoteteam/ReNoteTest},
+  abstract = {Computational notebooks are the de facto platform for exploratory data science, offering an interactive programming environment where users can create, modify, and execute code cells in any sequence. However, this flexibility often introduces code quality issues, with prior studies showing that approximately 76% of public notebooks are non-executable. We argue that the traditional notion of executability—requiring a notebook to run fully and without error—is overly rigid, misclassifying many notebooks and overestimating their non-executability. This paper investigates pathological executability issues in public notebooks under varing notions and degrees of executability. Notebooks, by construction, are incrementally and interactively executed, where each cell execution advances logic toward the notebook's goal. Even partial improvements in executability can enhance code comprehension. With this insight, we first categorize notebooks into potentially restorable and pathological non-executable notebooks and then measure how removing misconfiguration and superficial execution issues in notebooks can improve their executability (i.e., additional cells executed without error). In a dataset of 39,717 public notebooks, containing 30,541 non-executable notebooks, only 36% are truly pathologically non-executable. For restorable notebooks, we use LLM-based input generation to fully restore 11.7% of previously non-executable notebooks. Among the partially restored, we improve the executability of the notebooks by 43% and 30.9% by installing the correct modules and generating synthetic data. These findings challenge prior assumptions, suggesting that notebooks have higher executability than previously reported, with many offering valuable partial execution. Based on these insights, we design an automated test generation tool for executability, targeting the most common failure causes. We find that the generated tests accurately and preemptively reflect notebook executability by showing a low passing rate on non-executable notebooks (64.8%, on average) and a very high passing rate (100%) on fully executable ones.},
+}
+
 
 @INPROCEEDINGS{11025746,
   abbr = {MSR 2025},
