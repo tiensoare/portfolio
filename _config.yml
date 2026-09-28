@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Tien
-middle_name: K.
+middle_name: Kim
 last_name: Soare
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -234,6 +234,7 @@ exclude:
   - al-folio-upgrade-report.md
   - bin/
   - CLAUDE.md
+  - INSTRUCTION.md
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
@@ -356,8 +357,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Nguyen, Soare]
+  first_name: [Tien, T.]
 
   style: apa
   locale: en

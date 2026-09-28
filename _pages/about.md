@@ -22,13 +22,17 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fourth-year Ph.D. student in Computer Science at Virginia Tech in Blacksburg, Virginia, advised by Dr. Muhammad Ali Gulzar. I earned my M.S. in 2026 and expect to complete my Ph.D. in May 2028. Originally from Vietnam, I began my path in computing at Century College and the University of Saint Thomas before coming to Virginia Tech.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research asks where large language models (LLMs) fail when we trust them to build, test, and reason about software, and how to make them reliable. Specifically, my research circles around three pillars:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- `Numerical Reasoning in LLMs`: understanding how models represent, tokenize, and reason over high-precision numbers, and designing representation- and tokenizer-level fixes for floating-point and scientific computing tasks.
+- `LLM-Driven Software Reliability`: using LLMs to test, debug, and harden real software, e.g., boundary-targeting test generation, numerical bug detection, and failure diagnosis.
+- `Empirical Failure Analysis`: characterizing how software and AI systems break in practice at scale, grounding tools and techniques in the failures developers actually face.
+
+My work has appeared at [MSR 2025](https://2025.msrconf.org/), and I publicly release and maintain the code behind each project. Outside research, I serve as a TA for introductory Python and Java courses.

@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default:  "930px" }}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+// -----------------------------------------------------------------------------
+// Local customizations (kept here because a local _sass/ folder fails the
+// template's style-contract CI check)
+// -----------------------------------------------------------------------------
+
+// Show my own name in publication author lists like inline `code`
+// (matches the theme's inline code style in both light and dark mode).
+.publications ol.bibliography li .author > em {
+  font-family: var(--bs-font-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace);
+  font-size: 0.82em;
+  font-style: normal;
+  color: var(--global-theme-color);
+  background-color: var(--global-code-bg-color);
+  border-bottom: none;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+// Embedded videos (YouTube, etc.): fill the column at a 16:9 ratio.
+// Usage: add "video-16x9" to the class of a video.liquid include.
+// (Never put Liquid tags in this file, even in comments: Jekyll runs them.)
+iframe.video-16x9 {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}

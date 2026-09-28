@@ -1,8 +1,24 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
+# Other button fields: slides, poster, video, website and blog.
+
+# Award: from award. The label comes from award_name, or "Awarded" if that's not set.
+# Abs: from abstract. It expands the abstract.
+# DOI: from doi
+# arXiv: from arxiv
+# HAL: from hal
+# Bib: from bibtex_show = {true}. It expands the BibTeX entry.
+# HTML: from html
+# PDF: from pdf
+# Supp: from supp
+# Video: from video
+# Blog: from blog
+# Code: from code
+# Poster: from poster
+# Slides: from slides
+# Website: from website
 
 ######################################################
 # 2026
@@ -12,14 +28,17 @@
   abbr = {arXiv},
   selected = {true},
   preview = {arxiv.png},
+  bibtex_show = {true},
+
   title={Assessing Large Language Models for Stabilizing Numerical Expressions in Scientific Software}, 
-  author={Tien Nguyen and Kirshanthan Sundararajah and Muhammad Ali Gulzar},
+  author={Nguyen, Tien and Sundararajah, Kirshanthan and Gulzar, Muhammad Ali},
   year={2026},
   eprint={2604.04854},
   archivePrefix={arXiv},
   primaryClass={cs.SE},
-  url={https://arxiv.org/abs/2604.04854},
   html={https://arxiv.org/abs/2604.04854},
+  url={https://arxiv.org/abs/2604.04854},
+  code={https://anonymous.4open.science/r/LLMNumberICSE26/README.md},
   abstract={Scientific software relies on high-precision computation, yet finite floating-point representations introduce precision errors that propagate in safety-critical domains. Despite growing use of large language models (LLMs) in scientific applications, their reliability in handling floating-point numerical stability has not been systematically evaluated. This paper evaluates LLMs' reasoning through two tasks: (1) detecting instability in numerical expressions by generating error-inducing inputs (detection), and (2) rewriting expressions to improve numerical stability (stabilization). Building on popular numerical benchmarks, we assess 4 state-of-the-art LLMs on 2,037numerical structures, including nested conditionals, high-precision literals, and multi-variable arithmetic, across 469,000 tasks. Our results show that LLMs complement traditional approaches in detecting and stabilizing numerically unstable computations. Notably, LLMs outperform baseline methods precisely where the latter fail, stabilizing 61.2% of expressions the baseline fails to improve. More broadly, however, traditional baselines outperform LLMs: Herbie stabilizes 93.7% of the expressions compared to 67.2% by LLMs, and on expressions that both stabilize, Herbie achieves higher accuracy in 42.7% of cases. LLMs struggle with control flow and high-precision literals, consistently removing such structures rather than reasoning about their numerical implications, while performing substantially better on purely symbolic expressions. Even when LLMs preserve structure, their numerical reasoning falters, yielding semantically inequivalent expressions in over 46% of cases. These findings suggest LLMs are effective at stabilizing expressions that classical techniques cannot, yet struggle when high-precision magnitudes and control-flow semantics demand precise reasoning, since such concrete patterns are rarely seen during training.}
 }
 
@@ -31,6 +50,8 @@
   abbr = {MSR 2025},
   preview = {icse2025logo.png},
   bibtex_show = {true},
+  selected = {true},
+
   author={Nguyen, Tien and Gill, Waris and Gulzar, Muhammad Ali},
   booktitle={2025 IEEE/ACM 22nd International Conference on Mining Software Repositories (MSR)}, 
   title={Are the Majority of Public Computational Notebooks Pathologically Non-Executable?}, 
@@ -40,125 +61,8 @@
   pages={396-407},
   keywords={Pathology;Codes;Measurement uncertainty;Data science;Software;Data mining;Logic;Standards;Synthetic data;Computational notebooks;non-executability;restoration;mining software repositories},
   doi={10.1109/MSR66628.2025.00070},
-  abstract={Computational notebooks are the de facto platforms for exploratory data science, offering an interactive programming environment where users can create, modify, and execute code cells in any sequence. However, this flexibility often introduces code quality issues, with prior studies showing that approximately 76% of public notebooks are non-executable, raising significant concerns about reusability. We argue that the traditional notion of executability - requiring a notebook to run fully and without error - is overly rigid, misclassifying many notebooks and overestimating their non-executability. This paper investigates pathological executability issues in public notebooks under varying notions and degrees of executability. Even partially improving executability can improve code comprehension and offer a pathway for dynamic analyses. With this insight, we first categorize notebooks into potentially restorable and pathological non-executable notebooks and then measure how removing misconfiguration and superficial execution issues in notebooks can improve their executability (i.e., additional cells executed without error). In a dataset of 42,546 popular public notebooks containing 34,659 non-executable notebooks, only 21.3% are truly pathologically non-executable. For restorable notebooks, LLM-based methods fully restore 5.4% of previously non-executable notebooks. Among the partially restored, the executability of notebooks improves by 42.7% and 28% by installing the correct modules and generating synthetic data. These findings challenge prior assumptions, suggesting that notebooks have higher executability than previously reported, many of which offer valuable partial execution, and that their executability should be evaluated within the interactive notebook paradigm rather than through traditional software executability standards.},
-  selected = {true}, 
+  abstract={Computational notebooks are the de facto platforms for exploratory data science, offering an interactive programming environment where users can create, modify, and execute code cells in any sequence. However, this flexibility often introduces code quality issues, with prior studies showing that approximately 76% of public notebooks are non-executable, raising significant concerns about reusability. We argue that the traditional notion of executability - requiring a notebook to run fully and without error - is overly rigid, misclassifying many notebooks and overestimating their non-executability. This paper investigates pathological executability issues in public notebooks under varying notions and degrees of executability. Even partially improving executability can improve code comprehension and offer a pathway for dynamic analyses. With this insight, we first categorize notebooks into potentially restorable and pathological non-executable notebooks and then measure how removing misconfiguration and superficial execution issues in notebooks can improve their executability (i.e., additional cells executed without error). In a dataset of 42,546 popular public notebooks containing 34,659 non-executable notebooks, only 21.3% are truly pathologically non-executable. For restorable notebooks, LLM-based methods fully restore 5.4% of previously non-executable notebooks. Among the partially restored, the executability of notebooks improves by 42.7% and 28% by installing the correct modules and generating synthetic data. These findings challenge prior assumptions, suggesting that notebooks have higher executability than previously reported, many of which offer valuable partial execution, and that their executability should be evaluated within the interactive notebook paradigm rather than through traditional software executability standards.}, 
+  video={https://www.youtube.com/watch?v=dAaLlh7dFxY},
+  code={https://github.com/renoteteam/ReNote2024},
 }
 
-
-
-
-
-
-
-
-
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
-}
