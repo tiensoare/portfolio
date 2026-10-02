@@ -31,7 +31,7 @@ I hope to design introductory courses that pair frequent, low-stakes practice wi
 
 I am completing the **Future Professoriate Graduate Certificate** at Virginia Tech (expected Spring 2027), a program that prepares graduate students for faculty careers through coursework in teaching philosophy, inclusive pedagogy, and course design.
 
-[Download my full teaching statement (PDF)](/assets/pdf/teaching_statement.pdf)
+[Download my full teaching statement (PDF)](/assets/pdf/Tien_Soare_Teaching_Statement.pdf)
 
 ### Teaching Experience
 
