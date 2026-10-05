@@ -29,7 +29,7 @@ cv:
         area: Computer Science
         studyType: Doctor of Philosophy
         start_date: 2023
-        end_date: 
+        end_date:
         score: "4.0"
         # courses: "Theory of Relativity"
         highlights:
@@ -74,13 +74,13 @@ cv:
         position: Graduate Research Assistant
         location: Blacksburg, VA, USA
         start_date: 2023
-        end_date: 
+        end_date:
         # summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
         highlights:
           - Built and ran large-scale LLM evaluation pipelines on Virginia Tech's ARC cluster, orchestrating vLLM inference across A100 GPUs under Slurm for 469K prompts and 3B tokens
           - Developed static and dynamic analysis tooling for Python programs, including AST-based semantic-equivalence checking and symbolic verification with SymPy
           - Collaborated with two faculty advisors and a research group across four concurrent projects
- 
+
       - company: Department of Computer Science, Virginia Tech
         position: Graduate Teaching Assistant
         location: Blacksburg, VA, USA
@@ -119,7 +119,7 @@ cv:
 
     # Volunteer:
     #   - company: Access Center, Century College
-    #     position: Notetaker, Scriber, and Typer 
+    #     position: Notetaker, Scriber, and Typer
     #     location: White Bear Lake, MN, USA
     #     start_date: 2018-09
     #     end_date: 2020-05
@@ -136,7 +136,7 @@ cv:
         awarder: Dept. of Computer Science, Virginia Tech
         # url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
         summary: Full scholarship awards for 10 CS students to attend the GHC 2026 hosted in Anaheim, CA
-      
+
       - title: Finalist, Fowler Global Social Innovation Challenge
         date: 2021
         awarder: University of Saint Thomas
@@ -158,7 +158,7 @@ cv:
         releaseDate: 2026-04-08
         url: https://arxiv.org/abs/2604.04854
         summary: First evaluation of LLM reasoning for high-precision numerical computation, showing that LLMs fix many expressions that classical tools cannot, making them a complementary tool for numerical robustness.
- 
+
       - title: Are the Majority of Public Computational Notebooks Pathologically Non-Executable?
         authors:
           - Tien Nguyen
@@ -173,19 +173,19 @@ cv:
       - name: Languages
         icon: fa-solid fa-code
         keywords: "Python, Java, SQL, JavaScript, HTML/CSS"
- 
+
       - name: ML and LLM Systems
         icon: fa-solid fa-brain
         keywords: "vLLM, PyTorch, HuggingFace Transformers, quantization (FP8/INT8), model evaluation and benchmarking, prompt design"
- 
+
       - name: Program Analysis
         icon: fa-solid fa-magnifying-glass
         keywords: "AST analysis, SymPy, numerical stability, floating-point verification, pytest, JUnit"
- 
+
       - name: HPC and Infrastructure
         icon: fa-solid fa-server
         keywords: "Slurm, ARC/TinkerCliffs (NVIDIA A100), Docker, Conda"
- 
+
       - name: Web Development
         icon: fa-solid fa-globe
         keywords: "React, Flask, FastAPI, REST APIs, Material UI"
@@ -201,11 +201,11 @@ cv:
       - name: Research
         icon: fa-solid fa-flask
         keywords: "LLMs for software engineering, numerical reasoning in LLMs, software testing and reliability, program analysis"
- 
+
       - name: Community
         icon: fa-solid fa-handshake
         keywords: "Diversity in computing, mentoring women in tech, supporting community college and international students"
- 
+
       - name: Art
         icon: fa-solid fa-pencil
         keywords: "Pencil portrait drawing"
@@ -231,17 +231,17 @@ cv:
         summary: Full-stack bookmark management web app built as a team project at Virginia Tech.
         highlights:
           - Developed the interactive React front end and collaborated on Node.js and PostgreSQL back-end integration
- 
+
       - name: Book Library
         summary: Personal React web app for searching and ranking books via the Google Books API.
         highlights:
           - Implemented pagination, sorting, and saved favorites with a responsive Bootstrap UI
- 
+
       - name: Classy Schedule
         summary: Web application for University of Saint Thomas department chairs to schedule classes and teaching sections.
         highlights:
           - Built React and Material UI front-end components and worked with back-end teams to deploy on Azure
- 
+
       - name: AbroadstudiZ
         summary: Web platform helping international students plan study abroad and share experiences.
         highlights:

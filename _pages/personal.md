@@ -50,7 +50,6 @@ My favorite subjects are portraits of women in traditional and national costumes
     Right: <a href="https://en.wikipedia.org/wiki/Wu_Zetian">Wu Zetian</a>, inspired by the drama <a href="https://www.imdb.com/title/tt4409784/">The Empress of China</a>.
 </div>
 
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/drawing_wedding.jpeg" title="My in-law family during our wedding" class="img-fluid rounded z-depth-1" %}

@@ -20,7 +20,6 @@ My teaching rests on three principles.
 
 3. **`Every student belongs`.** Programming can be intimidating, especially for students with no prior experience or who come from backgrounds underrepresented in computing. As a former international and community college student, I know that feeling well. I work to make confusion normal and questions welcome, and I listen closely to how each student thinks so I can meet them where they are.
 
-
 #### What Students Say
 
 Students often tell me that I am patient and genuinely helpful when they are stuck, and that my explanations make difficult concepts easy to grasp. That feedback means a lot to me, because it reflects exactly the kind of learning environment I work to create.
@@ -49,7 +48,6 @@ I have been a Teaching Assistant (TA) for some Computer Science undergraduate in
 - Supported students in learning object-oriented programming through labs, office hours, and one-on-one debugging sessions.
 - **Description:** Fundamental concepts of programming from an object-oriented perspective. Basic software engineering principles and programming skills in a programming language that supports the object-oriented paradigm. Simple data types, control structures, array and string data structures, basic algorithms, testing and debugging. A basic model of the computer as an abstract machine. Modeling and problem-solving skills applicable to programming at this level.
 
-
 ### Resources
 
 [a placeholder for my videos on CS concepts for the final project]
@@ -58,11 +56,8 @@ I have been a Teaching Assistant (TA) for some Computer Science undergraduate in
 
 This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
 
-
-
 {% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
 {% include courses.liquid %}
-
 
 {% endcomment %}

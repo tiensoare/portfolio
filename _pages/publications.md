@@ -25,7 +25,6 @@ I believe in open science, so I publicly release and maintain the code behind al
 - **Are the Majority of Public Computational Notebooks Pathologically Non-Executable?**, MSR 2025, Ottawa, Canada. [[video](https://www.youtube.com/watch?v=dAaLlh7dFxY)]
 - **Code Repair for Unstable Numerical Programs with LLMs**, Virginia Tech CCI Student Symposium 2025, Blacksburg, VA. [[slides](https://docs.google.com/presentation/d/12hHQEA_0DFD43L3z2vHa02NqNaB40wL6/edit?usp=sharing&ouid=115718852536365943565&rtpof=true&sd=true)]
 
-
 ### Publications
 
 <!-- _pages/publications.md -->

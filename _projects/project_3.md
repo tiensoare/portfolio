@@ -20,15 +20,15 @@ International students often have to navigate a complex series of decisions and 
 
 The platform organized resources across key stages of the international student experience, including:
 
-* **University and program search:** Resources to help students explore universities and identify programs that match their academic goals.
-* **Application guidance:** Information and guidance for navigating the U.S. university application process.
-* **Scholarships and financial aid:** Resources for identifying funding opportunities and understanding financial considerations.
-* **U.S. visa application:** Guidance and resources for navigating the student visa process.
-* **Housing:** Information to help students understand and prepare for finding accommodation in the U.S.
-* **Travel and arrival:** Practical guidance for preparing for travel and transitioning into life in the U.S.
-* **Banking, phone services, and Social Security:** Resources covering practical administrative tasks that international students encounter after arrival.
-* **Cultural adjustment:** Guidance for adapting to a new academic, social, and cultural environment.
-* **Student stories:** Firsthand experiences from international students intended to provide practical insights and help students feel connected to others who have gone through a similar journey.
+- **University and program search:** Resources to help students explore universities and identify programs that match their academic goals.
+- **Application guidance:** Information and guidance for navigating the U.S. university application process.
+- **Scholarships and financial aid:** Resources for identifying funding opportunities and understanding financial considerations.
+- **U.S. visa application:** Guidance and resources for navigating the student visa process.
+- **Housing:** Information to help students understand and prepare for finding accommodation in the U.S.
+- **Travel and arrival:** Practical guidance for preparing for travel and transitioning into life in the U.S.
+- **Banking, phone services, and Social Security:** Resources covering practical administrative tasks that international students encounter after arrival.
+- **Cultural adjustment:** Guidance for adapting to a new academic, social, and cultural environment.
+- **Student stories:** Firsthand experiences from international students intended to provide practical insights and help students feel connected to others who have gone through a similar journey.
 
 To better understand the challenges faced by prospective and current international students, our team conducted interviews with **three professors and six international students** about their experiences with studying abroad, including the information and support they needed throughout the process. These conversations informed the project's focus on combining practical resources with firsthand student experiences.
 
